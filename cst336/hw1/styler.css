@@ -1,0 +1,41 @@
+  body{
+   background-color:#8FBDCC;
+              color:black;
+  }
+  
+  header, main, nav, footer{
+      text-align:center;
+  }
+  
+  nav a{ /*links within "nav" container*/
+  padding:15px;
+  padding-bottom:4px;
+  font-size:1.8em;
+  text-decoration: none; /*removes underline*/
+  color:#677D85; /*by default, links are blue*/
+ 
+      
+  }
+  
+  nav a:hover { /*pseudo class*/
+  border-bottom:2px pink solid;
+  font-size:2em;
+  webkit-transition: width 2s, height 4s; /*transition effect*/
+  }
+  
+  #tree, #welcomeText,#treeExampleText,#traverseText{
+      float:left;
+      padding-right:50px;
+  }
+ 
+ #pbsText{
+     margin: auto;
+     
+ }
+  
+ footer {
+      clear:left;
+  }
+  
+
+ 
